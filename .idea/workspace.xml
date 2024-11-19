@@ -4,23 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95d2fe45-fb92-441c-a21c-8185893f01cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrabajosJava.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TPRelacion/Ejercicio1/Alumno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TPRelacion/Ejercicio1/CargaNotas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TPRelacion/Ejercicio1/Nota.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TPRelacion/Ejercicio2/Ingrediente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TPRelacion/Ejercicio2/MenuRestaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TPRelacion/Ejercicio2/Plato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TPRelacion/Ejercicio3/DetalleFactura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TPRelacion/Ejercicio3/Factura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TPRelacion/Ejercicio3/Facturacion.java" afterDir="false" />
+    <list default="true" id="95d2fe45-fb92-441c-a21c-8185893f01cf" name="Changes" comment="Añado Trabajo Relaciones">
+      <change afterPath="$PROJECT_DIR$/src/TPHerenciayPolimorfismo/Ejercicio1/Promocionable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TPHerenciayPolimorfismo/Ejercicio1/Reservas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TPHerenciayPolimorfismo/Ejercicio1/SistemaDeReservas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TPHerenciayPolimorfismo/Ejercicio1/Vuelo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TPHerenciayPolimorfismo/Ejercicio1/VueloCharter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TPHerenciayPolimorfismo/Ejercicio1/VueloRegular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TPHerenciayPolimorfismo/Ejercicio2/Cancelable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TPHerenciayPolimorfismo/Ejercicio2/MetodoPago.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TPHerenciayPolimorfismo/Ejercicio2/Pagos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TPHerenciayPolimorfismo/Ejercicio2/PayPal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TPHerenciayPolimorfismo/Ejercicio2/SistemaDePagos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TPHerenciayPolimorfismo/Ejercicio2/TarjetaCredito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TPHerenciayPolimorfismo/Ejercicio3/CanalNotificacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TPHerenciayPolimorfismo/Ejercicio3/CorreoElectronico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TPHerenciayPolimorfismo/Ejercicio3/MensajeTexto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TPHerenciayPolimorfismo/Ejercicio3/Notificaciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TPHerenciayPolimorfismo/Ejercicio3/Personalizable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TPHerenciayPolimorfismo/Ejercicio3/SistemaNotificaciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +41,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;PetruJey&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PetruJey/TrabajosJava.git&quot;,
+    &quot;accountId&quot;: &quot;28485567-0161-47cf-923b-54632ec6b303&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2p2IJurHO0BFrVikXrMzovBnft0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -48,12 +64,63 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.SistemaDePagos.executor": "Run",
+    "Application.SistemaDeReservas.executor": "Run",
+    "Application.SistemaNotificaciones.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/IdeaProjects/TrabajosJava/src/Main.java"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.SistemaNotificaciones">
+    <configuration name="SistemaDePagos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TPHerenciayPolimorfismo.Ejercicio2.SistemaDePagos" />
+      <module name="TrabajosJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TPHerenciayPolimorfismo.Ejercicio2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SistemaDeReservas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TPHerenciayPolimorfismo.Ejercicio1.SistemaDeReservas" />
+      <module name="TrabajosJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TPHerenciayPolimorfismo.Ejercicio1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SistemaNotificaciones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TPHerenciayPolimorfismo.Ejercicio3.SistemaNotificaciones" />
+      <module name="TrabajosJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TPHerenciayPolimorfismo.Ejercicio3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SistemaNotificaciones" />
+        <item itemvalue="Application.SistemaDePagos" />
+        <item itemvalue="Application.SistemaDeReservas" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,6 +130,19 @@
       <option name="presentableId" value="Default" />
       <updated>1731957675551</updated>
     </task>
+    <task id="LOCAL-00001" summary="Añado Trabajo Relaciones">
+      <option name="closed" value="true" />
+      <created>1731958362320</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731958362320</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Añado Trabajo Relaciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añado Trabajo Relaciones" />
   </component>
 </project>
